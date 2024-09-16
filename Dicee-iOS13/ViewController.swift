@@ -21,8 +21,8 @@ class ViewController: UIViewController {
 
     
     @IBAction func btnClicked(_ sender: Any) {
-        var dice1=Int.random(in: 0...6)
-        var dice2=Int.random(in: 0...6)
+        let dice1=Int.random(in: 0...6)
+        let dice2=Int.random(in: 0...6)
         if dice1==2{
             diceImageView1.image=UIImage(named: "DiceTwo")
         }
